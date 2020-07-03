@@ -1,0 +1,147 @@
+{
+	"index.html": {
+		"resources": [
+			"main_hchat.html",
+			"main_me.html",
+			"fonts/mui.ttf",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		],
+		"refer": [
+			"main_me.html",
+			"main_contact.html",
+			"main_hchat.html",
+			"main_discover.html"
+		]
+	},
+	"register.html": {
+		"refer": [
+			"register.html",
+			"login.html"
+		],
+		"resources": [
+			"js/common.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"register.html",
+			"login.html"
+		]
+	},
+	"login.html": {
+		"refer": [
+			"register.html",
+			"login.html",
+			"index.html"
+		],
+		"resources": [
+			"js/common.js",
+			"js/mui.min.js",
+			"css/mui.min.css",
+			"register.html",
+			"fonts/mui.ttf"
+		]
+	},
+	"main_me.html": {
+		"refer": [
+			"me_photo.html",
+			"me_nickname.html",
+			"me_qrcode.html",
+			"login.html"
+		],
+		"resources": [
+			"image/default_user_pic.png",
+			"image/qrcode.png",
+			"js/common.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"me_photo.html": {
+		"refer": [
+			"js/cropper/image-uploader.html"
+		],
+		"resources": [
+			"image/default_user_pic_normal.png"
+		]
+	},
+	"js/cropper/image-uploader.html": {
+		"refer": [
+			"js/cropper/index.html"
+		]
+	},
+	"main_discover.html": {
+		"refer": [
+			"search_friend.html",
+			"scan.html"
+		],
+		"resources": [
+			"image/add_friend.png",
+			"image/saoyisao.png",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"search_friend.html": {
+		"refer": [
+			"search_friend_result.html"
+		],
+		"resources": [
+			"js/common.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"main_contact.html": {
+		"refer": [
+			"chat.html"
+		],
+		"resources": [
+			"js/hanzi_pinyin.js",
+			"css/mui.indexedlist.css",
+			"js/mui.indexedlist.js",
+			"js/common.js",
+			"fonts/mui.ttf",
+			"js/mui.min.js",
+			"css/mui.min.css"
+		]
+	},
+	"main_hchat.html": {
+		"refer": [
+			"chat.html"
+		],
+		"resources": [
+			"js/mui.min.js",
+			"js/common.js",
+			"css/mui.min.css"
+		]
+	},
+	"chat.html": {
+		"resources": [
+			"css/chat.css",
+			"js/common.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	},
+	"search_friend_result.html": {
+		"resources": [
+			"js/common.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css",
+			"image/default_user_pic.png"
+		]
+	},
+	"me_nickname.html": {
+		"resources": [
+			"js/common.js",
+			"js/mui.min.js",
+			"fonts/mui.ttf",
+			"css/mui.min.css"
+		]
+	}
+}
